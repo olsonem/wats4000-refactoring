@@ -22,6 +22,9 @@ export default {
     }
 }
 </script>
-<style>
-
+<style scoped>
+.weatherSummary {
+  display: inline-block;
+  width: 100px;
+}
 </style>
