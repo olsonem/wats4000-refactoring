@@ -53,7 +53,7 @@ export default {
   }, 
     components: {
     'weather-summary': WeatherSummary,
-    'weather-data': weatherData
+    'weather-data': this.weatherData
   }
 }
 </script>

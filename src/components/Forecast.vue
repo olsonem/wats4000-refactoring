@@ -80,7 +80,7 @@ export default {
   },
     components: {
     'weather-summary': WeatherSummary, 
-    'weather-data': weatherData
+    'weather-data': this.weatherData
   }  
 }
 </script>
@@ -111,8 +111,6 @@ li {
 
 a {
   color: #42b983;
-}
-
 }
 </style>
 

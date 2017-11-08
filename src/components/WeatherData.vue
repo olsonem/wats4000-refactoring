@@ -1,7 +1,7 @@
 <template>
     <dl>
-        <dt v-if="weatherData.temp">Current Temp</dt>
-        <dd v-if="weatherData.temp">{{ weatherData.temp }}&deg;F</dd>
+        <dt v-if="weatherData.temp != weatherData.temp_min">Current Temp</dt>
+        <dd v-if="weatherData.temp != weatherData.temp_min">{{ weatherData.temp }}&deg;F</dd>
         <dt>Humidity</dt>
         <dd>{{ weatherData.humidity }}%</dd>
         <dt>High</dt>
@@ -13,7 +13,7 @@
 <script>
 
 export default {
-  name: 'WeatherData',
+  name: 'weatherData',
   data () {
     return {
     }
