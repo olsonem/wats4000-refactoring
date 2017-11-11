@@ -8,8 +8,6 @@
     </div>
 </template>
 <script>
-import {API} from '@/common/api';
-
 export default {
   name: 'WeatherSummary',
   data () {

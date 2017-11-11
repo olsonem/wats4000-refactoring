@@ -13,7 +13,7 @@
 <script>
 
 export default {
-  name: 'weatherData',
+  name: 'WeatherData',
   data () {
     return {
     }
